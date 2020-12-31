@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Tool Name :- IP-Tracer
-# Author :- Rajkumar Dusad
-# Date :- 10/10/2018
+# Tool Name :- ipinfo
+# Author :- NoobZcodeR
+# Date :- 31/12/2020
 
 case "$1" in
   -m)
