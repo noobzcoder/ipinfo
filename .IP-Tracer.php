@@ -5,16 +5,13 @@ include("modules/trip.php");
 
 function logo() {
   system("clear");
-  echo <<<EOL
-\033[01;33m
-
-
-\033[01;31m      _\033[01;33m ____    _
-     \033[01;31m(_)\033[01;33m  _ \  | |_ _ __ __ _  ___ ___ _ __
-     | | |_) | | __| '__/ _` |/ __/ _ \ '__|
-     | |  __/  | |_| | | (_| | (_|  __/ |
-     |_|_|      \__|_|  \__,_|\___\___|_|
-
+  
+  ___ ____    _____                        
+ |_ _|  _ \  |_   _| __ __ _  ___ ___ _ __ 
+  | || |_) |   | || '__/ _` |/ __/ _ \ '__|
+  | ||  __/    | || | | (_| | (_|  __/ |   
+ |___|_|       |_||_|  \__,_|\___\___|_|   
+                                           
 
    \033[01;37m}\033[01;31m----------------------------------------\033[01;37m{
 }\033[01;31m-------------- \033[01;32mTrack IPLocation\033[01;31m --------------\033[01;37m{
@@ -28,9 +25,9 @@ function About() {
   logo();
   echo <<<EOL
 
-         \033[01;33mTool Name \033[01;37m:- \033[01;36mIP-Tracer
-         \033[01;33mAuthor \033[01;37m:- \033[01;36mRajkumar Dusad
-         \033[01;33mPowered By \033[01;37m:- \033[01;36mAex Software's
+         \033[01;33mTool Name \033[01;37m:- \033[01;36mipinfo
+         \033[01;33mAuthor \033[01;37m:- \033[01;36mNoobZ CodeR
+         \033[01;33mGithub \033[01;37m:- \033[01;36mnoobzcoder
 
  \033[01;33mIP-Tracer\033[01;32m is use \033[01;36mip-api \033[01;32mto retrive any ip address information. Our system will automatically ban any IP addresses doing over 150 requests per minute.\033[00m
 
